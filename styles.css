@@ -107,11 +107,65 @@ body {
 
 /* Hero Section */
 .hero {
+    position: relative;
     padding: 4rem 2rem;
-    background: var(--bg-white);
     min-height: 90vh;
     display: flex;
     align-items: center;
+    overflow: hidden;
+    /* Layered background: soft gradient base */
+    background:
+        linear-gradient(180deg, #fafbff 0%, #f5f3ff 35%, #f0f4ff 70%, #ffffff 100%);
+}
+
+/* Soft gradient orbs for depth (no image needed) */
+.hero::before {
+    content: '';
+    position: absolute;
+    top: -40%;
+    right: -15%;
+    width: 70%;
+    height: 140%;
+    background: radial-gradient(
+        ellipse at center,
+        rgba(99, 102, 241, 0.14) 0%,
+        rgba(139, 92, 246, 0.06) 40%,
+        transparent 70%
+    );
+    pointer-events: none;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    bottom: -30%;
+    left: -20%;
+    width: 60%;
+    height: 100%;
+    background: radial-gradient(
+        ellipse at center,
+        rgba(236, 72, 153, 0.08) 0%,
+        transparent 60%
+    );
+    pointer-events: none;
+}
+
+/* Subtle grid overlay for a tech feel */
+.hero .hero-container {
+    position: relative;
+    z-index: 1;
+}
+
+.hero .hero-container::before {
+    content: '';
+    position: absolute;
+    inset: -2rem;
+    background-image:
+        linear-gradient(rgba(99, 102, 241, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(99, 102, 241, 0.04) 1px, transparent 1px);
+    background-size: 64px 64px;
+    pointer-events: none;
+    z-index: -1;
 }
 
 .hero-container {
@@ -384,8 +438,20 @@ body {
 
 /* Services Section */
 .services {
+    position: relative;
     padding: 6rem 2rem;
-    background: var(--bg-white);
+    background: linear-gradient(180deg, #ffffff 0%, #f8fafc 50%, #ffffff 100%);
+}
+
+.services::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(99, 102, 241, 0.15), transparent);
+    opacity: 0.6;
 }
 
 .section-title {
