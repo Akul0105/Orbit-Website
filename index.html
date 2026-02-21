@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbit Labs - Simplifying Business Through Technology</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Banner -->
+    <div class="top-banner">
+        <p>🚀 Transform your business with cutting-edge technology solutions</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets/logo.svg" alt="Orbit Labs Logo" class="logo-img" onerror="this.src='data:image/svg+xml,%3Csvg width=\'40\' height=\'40\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Ccircle cx=\'20\' cy=\'20\' r=\'15\' fill=\'%231f2937\'/%3E%3C/svg%3E'">
+                <span class="logo-text">Orbit</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-left">
+                <div class="trust-indicator">
+                    <div class="client-avatars">
+                        <div class="avatar"></div>
+                        <div class="avatar"></div>
+                        <div class="avatar"></div>
+                        <div class="avatar"></div>
+                    </div>
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="trust-text">Trusted by 100+ businesses</span>
+                    </div>
+                </div>
+                
+                <h1 class="hero-headline">
+                    Building powerful
+                    <br>
+                    <span class="highlight">software solutions</span>
+                    <br>
+                    that simplify work
+                </h1>
+                
+                <p class="hero-description">
+                    At Orbit Labs, we craft innovative digital solutions that streamline operations, 
+                    automate workflows, and make your business more efficient. Let's transform 
+                    your vision into reality.
+                </p>
+                
+                <div class="cta-buttons">
+                    <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                        Get Started
+                    </button>
+                    <button class="btn-secondary" onclick="document.getElementById('services').scrollIntoView({behavior: 'smooth'})">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </button>
+                </div>
+                
+                <div class="status-indicator">
+                    <span class="status-dot"></span>
+                    <span>Available for new projects</span>
+                </div>
+            </div>
+            
+            <div class="hero-right">
+                <div class="stat-box stat-box-1">
+                    <div class="stat-number">50%</div>
+                    <div class="stat-label">TIME SAVED</div>
+                </div>
+                
+                <div class="delivery-badge">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <polyline points="12 6 12 12 16 14"/>
+                    </svg>
+                    <span>FASTER DELIVERY</span>
+                </div>
+                
+                <div class="hero-image-placeholder">
+                    <div class="floating-card card-1">
+                        <div class="card-icon">💻</div>
+                        <div class="card-text">Web Solutions</div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <div class="card-icon">⚡</div>
+                        <div class="card-text">Automations</div>
+                    </div>
+                    <div class="floating-card card-3">
+                        <div class="card-icon">🔧</div>
+                        <div class="card-text">Custom Software</div>
+                    </div>
+                </div>
+                
+                <div class="vision-box">
+                    <div class="vision-icon">✨</div>
+                    <p>Where innovation meets efficiency</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Where innovation meets <em>efficiency</em></h2>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                            <line x1="8" y1="21" x2="16" y2="21"/>
+                            <line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom websites and web applications tailored to your business needs</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                            <line x1="12" y1="22.08" x2="12" y2="12"/>
+                        </svg>
+                    </div>
+                    <h3>Business Automation</h3>
+                    <p>Streamline workflows and eliminate repetitive tasks with smart automation</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                            <line x1="12" y1="18" x2="12.01" y2="18"/>
+                        </svg>
+                    </div>
+                    <h3>Mobile Solutions</h3>
+                    <p>Native and cross-platform mobile apps for iOS and Android</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>Custom Software</h3>
+                    <p>Bespoke software solutions designed specifically for your business</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                            <polyline points="7.5 4.21 12 6.81 16.5 4.21"/>
+                            <polyline points="7.5 19.79 7.5 14.6 3 12"/>
+                            <polyline points="21 12 16.5 14.6 16.5 19.79"/>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                            <line x1="12" y1="22.08" x2="12" y2="12"/>
+                        </svg>
+                    </div>
+                    <h3>System Integration</h3>
+                    <p>Connect your existing tools and systems for seamless operations</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3>Consulting & Support</h3>
+                    <p>Expert guidance and ongoing support to maximize your technology investment</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About/Features Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Our flexible team 🧑‍💻🧑‍🎨🧑‍🔬👩‍💻 has a wide range of skills</h2>
+                    <p class="about-description">
+                        We combine creativity 🎨 and technical expertise ✨ to deliver solutions 
+                        that not only look great but work seamlessly. Our team approaches every 
+                        project from a complete perspective, ensuring your software is both 
+                        innovative and practical.
+                    </p>
+                    
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>Fast Delivery</h4>
+                                <p>We deliver solutions quickly without compromising quality</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>Scalable Solutions</h4>
+                                <p>Built to grow with your business needs</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>Ongoing Support</h4>
+                                <p>We're here for you even after launch</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="visual-card card-1">
+                        <div class="card-header">Website</div>
+                        <div class="card-content">Modern & Responsive</div>
+                    </div>
+                    <div class="visual-card card-2">
+                        <div class="card-header">Automation</div>
+                        <div class="card-content">Streamlined Workflows</div>
+                    </div>
+                    <div class="visual-card card-3">
+                        <div class="card-header">Software</div>
+                        <div class="card-content">Custom Solutions</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to transform your business with technology?</h2>
+            <p>"Have a project in mind? We're here to turn your vision into reality. Our team of experts is ready to collaborate and deliver exceptional results. Let's work together to bring your ideas to life!"</p>
+            <button class="btn-primary btn-large" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                Get Started
+            </button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's <em>collaborate</em> on your next project</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in touch</h3>
+                    <p>Have a project in mind? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>hello@orbitlabs.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">💬</div>
+                            <div>
+                                <h4>Response Time</h4>
+                                <p>Within 24 hours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="company">Company (Optional)</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary btn-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <img src="assets/logo.svg" alt="Orbit Labs Logo" class="logo-img" onerror="this.src='data:image/svg+xml,%3Csvg width=\'40\' height=\'40\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Ccircle cx=\'20\' cy=\'20\' r=\'15\' fill=\'%231f2937\'/%3E%3C/svg%3E'">
+                        <span class="logo-text">Orbit</span>
+                    </div>
+                    <p>Empowering businesses with innovative technology solutions. Let's create something amazing together.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <a href="#services">Web Development</a>
+                        <a href="#services">Automation</a>
+                        <a href="#services">Custom Software</a>
+                        <a href="#services">Consulting</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="#about">About Us</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#services">Services</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Orbit Labs. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

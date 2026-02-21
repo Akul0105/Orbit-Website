@@ -1,0 +1,11 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Planet -->
+  <circle cx="40" cy="40" r="18" fill="#1f2937"/>
+  <circle cx="40" cy="40" r="12" fill="#374151"/>
+  
+  <!-- Ring 1 (behind) -->
+  <ellipse cx="40" cy="40" rx="28" ry="8" fill="none" stroke="#1f2937" stroke-width="2" transform="rotate(-20 40 40)"/>
+  
+  <!-- Ring 2 (front) -->
+  <ellipse cx="40" cy="40" rx="28" ry="8" fill="none" stroke="#1f2937" stroke-width="2" transform="rotate(20 40 40)"/>
+</svg>
